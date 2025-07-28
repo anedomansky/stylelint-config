@@ -1,0 +1,49 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "description": "Custom shareable stylelint config.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --test ./test/order.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anedomansky/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/anedomansky/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/anedomansky/stylelint-config#readme",
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0",
+    "stylelint": ">=16.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "12.1.0",
+    "stylelint-config-standard-scss": "15.0.1",
+    "stylelint-order": "7.0.0",
+    "stylelint-plugin-defensive-css": "1.0.4",
+    "stylelint-plugin-logical-css": "1.2.3",
+    "stylelint-prettier": "5.0.3"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "stylelint": "16.22.0",
+    "stylelint-test-rule-node": "^0.4.0"
+  }
+}
