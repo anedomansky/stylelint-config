@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "@anedomansky/stylelint-config",
   "version": "1.0.0",
   "description": "Custom shareable stylelint config.",
   "type": "module",
@@ -10,7 +10,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node --test ./test/order.test.js"
+    "test": "node --test",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
     "stylelint",
     "stylelint-config"
   ],
-  "author": "",
+  "author": "anedomansky",
   "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/anedomansky/stylelint-config/issues"
